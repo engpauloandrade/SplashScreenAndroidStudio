@@ -2,6 +2,6 @@
 
 ##
 
-- Feito o teste com uma Splash Screen para Android
+- Feito o app teste com uma Splash Screen para Android
 
 
