@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/emailUsuarioTeste"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="8dp"
+        android:autofillHints="password"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black" />
+
+
+    <EditText
+        android:id="@+id/senhaUsuarioTeste"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="8dp"
+        android:autofillHints="password"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/telefoneUsuarioTeste"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="8dp"
+        android:autofillHints="password"
+        android:hint="Telefone"
+        android:inputType="phone"
+        android:textColorHint="@color/black"
+
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="ENTRAR"
+        android:textColorHint="@color/white">
+
+
+    </Button>
+
+</LinearLayout>
